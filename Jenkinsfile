@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("Welcome"){
             steps{
-                sh 'echo "Good evening"'
+                sh 'echo "Good morning"'
                 sh 'echo "You are welcome"' 
             }
 
